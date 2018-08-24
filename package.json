@@ -1,13 +1,18 @@
 {
   "name": "Tuples_UnknownType",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript 3.0 Exploring Tuples and the Unknown Type",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "TypeScript 3.0",
+    "Tuples",
+    "Unknown Type"
+  ],
+  "author": "Orestes Garcia - orestes.garcia.martinez@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.3",
